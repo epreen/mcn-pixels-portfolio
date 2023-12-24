@@ -1,0 +1,678 @@
+.dynamic
+{
+    fill: var(--primary-color);
+}
+.lite
+{
+    fill:hsl(var(--primary-color-hue), 100%, 35%);
+}
+.variant
+{
+    fill: hsl(var(--primary-color-hue), 100%, 90%);
+}
+.moded
+{
+    fill:var(--font-color);
+}
+
+
+
+
+
+.shadows
+{
+    fill:hsl(var(--primary-color-hue), 100%, 5%);
+}
+.highlight
+{
+    fill:hsl(120, 33%, 99%);
+}
+
+
+
+
+
+
+.skin-1
+{
+    fill:hsl(33, 68%, 33%);
+}
+
+.skin-2
+{
+    fill:hsl(8, 68%, 55%);
+}
+
+
+
+
+
+
+
+.shadow-lite
+{
+    fill:hsl(var(--primary-color-hue), 25%, 11%);
+}
+.shadow-gray-100
+{
+    fill:hsl(var(--primary-color-hue), 30%, 20%);
+}
+.shadow-gray-900
+{
+    fill:hsl(var(--primary-color-hue), 32%, 34%);
+}
+.shadow-petals
+{
+    fill:#a80e04;
+}
+.petals-bright
+{
+    fill:#e52606;
+}
+
+
+
+
+
+.tone-1
+{
+    fill:hsl(var(--primary-color-hue), 100%, 25%);
+}
+.tone-2
+{
+    fill:hsl(var(--primary-color-hue), 100%, 49%);
+}
+.tone-3
+{
+    fill:hsl(var(--primary-color-hue), 100%, 50%);
+}
+.tone-4
+{
+    fill:hsl(var(--primary-color-hue), 99%, 50%);
+}
+
+
+
+
+
+
+
+.hwct-1
+{
+    fill:none;
+}
+.hwct-2
+{
+    clip-path:url(#clip-path);
+}   
+.hwct-3
+{
+    fill:#fff;
+}
+.hwct-4
+{
+    fill:hsl(var(--primary-color-hue), 100%, 20%);
+}
+.hwct-5
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-6
+{
+    fill:hsl(var(--primary-color-hue), 100%, 10%);
+}
+.hwct-7
+{
+    fill:hsl(var(--primary-color-hue), 100%, 10%);
+}
+.hwct-8
+{
+    fill:hsl(var(--primary-color-hue), 33%, 30%);
+}
+.hwct-9
+{
+    fill:hsl(var(--primary-color-hue), 33%, 30%);
+}
+.hwct-10
+{
+    fill:hsl(var(--primary-color-hue), 100%, 50%);
+}
+.hwct-11
+{
+    fill:hsl(var(--primary-color-hue), 99%, 30%);
+}
+.hwct-12
+{
+    fill:hsl(var(--primary-color-hue), 89%, 11%);
+}
+.hwct-13
+{
+    fill:hsl(var(--primary-color-hue), 100%, 29%);
+}
+.hwct-14
+{
+    fill:hsl(var(--primary-color-hue), 100%, 60%);
+}
+.hwct-15
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-16
+{
+    fill:hsl(var(--primary-color-hue), 1%, 20%);
+}
+.hwct-17
+{
+    fill:hsl(var(--primary-color-hue), 100%, 0%);
+}
+.hwct-18
+{
+    fill:hsl(var(--primary-color-hue), 1%, 21%);
+}
+.hwct-19
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-20
+{
+    fill:hsl(var(--primary-color-hue), 100%, 50%);
+}
+.hwct-21
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-22
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-23
+{
+    fill:hsl(var(--primary-color-hue), 100%, 30%);
+}
+.hwct-24
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-25
+{
+    fill:hsl(var(--primary-color-hue), 100%, 50%);
+}
+.hwct-26
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-27
+{
+    fill:hsl(var(--primary-color-hue), 100%, 40%);
+}
+.hwct-28
+{
+    fill:#020000;
+}
+.hwct-29
+{
+    fill:hsl(var(--primary-color-hue), 100%, 39%);
+}
+.hwct-30
+{
+    fill:hsl(var(--primary-color-hue), 100%, 39%);
+}
+.hwct-31
+{
+    fill:#ff6632;
+}
+.hwct-32
+{
+    fill:#d03400;
+}
+.hwct-33
+{
+    fill:#fd640d;
+}
+.hwct-34
+{
+    fill:#340000;
+}
+.hwct-35
+{
+    fill:#c90000;
+}
+.hwct-36
+{
+    fill:#ff6531;
+}
+.hwct-37
+{
+    fill:hsl(var(--primary-color-hue), 100%, 33%);
+}
+.hwct-38
+{
+    fill:hsl(var(--primary-color-hue), 51%, 40%);
+}
+.hwct-39
+{
+    fill:#fd3300;
+}
+.hwct-40
+{
+    fill:#6d0200;
+}
+.hwct-41
+{
+    fill:#c93200;
+}
+.hwct-42
+{
+    fill:#fe6530;
+}
+.hwct-43
+{
+    fill:#ff9996;
+}
+.hwct-44
+{
+    fill:#960000;
+}
+.hwct-45
+{
+    fill:#ff6663;
+}
+.hwct-46
+{
+    fill:#fb3300;
+}
+.hwct-47
+{
+    fill:#c83000;
+}
+.hwct-48
+{
+    fill:#a22500;
+}
+.hwct-49
+{
+    fill:#380000;
+}
+.hwct-50
+{
+    fill:#f83302;
+}
+.hwct-51
+{
+    fill:#bb3001;
+}
+.hwct-52
+{
+    fill:#860000;
+}
+.hwct-53
+{
+    fill:#ff9433;
+}
+.hwct-54
+{
+    fill:#333;
+}
+.hwct-55
+{
+    fill:#663334;
+}
+.hwct-56
+{
+    fill:#666;
+}
+.hwct-57
+{
+    fill:#900;
+}
+.hwct-58
+{
+    fill:#680000;
+}
+.hwct-59
+{
+    fill:#330133;
+}
+.hwct-60
+{
+    fill:#ce3400;
+}
+.hwct-61
+{
+    fill:#ce3300;
+}
+.hwct-62
+{
+    fill:#320033;
+}
+.hwct-63
+{
+    fill:#363233;
+}
+.hwct-64
+{
+    fill:#ff3500;
+}
+.hwct-65
+{
+    fill:#fd3400;
+}
+.hwct-66
+{
+    fill:#633335;
+}
+.hwct-67
+{
+    fill:#320133;
+}
+.hwct-68
+{
+    fill:#333334;
+}
+.hwct-69
+{
+    fill:#343464;
+}
+.hwct-70
+{
+    fill:#320232;
+}
+.hwct-71
+{
+    fill:#353564;
+}
+.hwct-72
+{
+    fill:#310031;
+}
+.hwct-73
+{
+    fill:#63618f;
+}
+.hwct-74
+{
+    fill:#d13600;
+}
+.hwct-75
+{
+    fill:#fe3300;
+}
+.hwct-76
+{
+    fill:#333233;
+}
+.hwct-77
+{
+    fill:#030001;
+}
+.hwct-78
+{
+    fill:#333133;
+}
+.hwct-79
+{
+    fill:#020102;
+}
+.hwct-80
+{
+    fill:#332f33;
+}
+.hwct-81
+{
+    fill:#340633;
+}
+.hwct-82
+{
+    fill:#ff9833;
+}
+.hwct-83
+{
+    fill:#ff9998;
+}
+.hwct-84
+{
+    fill:#ce3500;
+}
+.hwct-85
+{
+    fill:#350100;
+}
+.hwct-86
+{
+    fill:#ff9600;
+}
+.hwct-87
+{
+    fill:#ff98b9;
+}
+.hwct-88
+{
+    fill:#ff9801;
+}
+.hwct-89
+{
+    fill:#fe6632;
+}
+.hwct-90
+{
+    fill:#ff9733;
+}
+.hwct-91
+{
+    fill:#ff6732;
+}
+.hwct-92
+{
+    fill:#ff9004;
+}
+.hwct-93
+{
+    fill:#fe6328;
+}
+.hwct-94
+{
+    fill:#ff642a;
+}
+.hwct-95
+{
+    fill:#ff9987;
+}
+.hwct-96
+{
+    fill:#ffb25d;
+}
+.hwct-97
+{
+    fill:#fd6328;
+}
+.hwct-98
+{
+    fill:#ff9891;
+}
+.hwct-99
+{
+    fill:#ff9863;
+}
+.hwct-100
+{
+    fill:#fec6c3;
+}
+.hwct-101
+{
+    fill:#fe6500;
+}
+.hwct-102
+{
+    fill:#ff6832;
+}
+.hwct-103
+{
+    fill:#983300;
+}
+.hwct-104
+{
+    fill:#ff9995;
+}
+.hwct-105
+{
+    fill:#666290;
+}
+.hwct-106
+{
+    fill:#666265;
+}
+.hwct-107
+{
+    fill:#666465;
+}
+.hwct-108
+{
+    fill:#643336;
+}
+.hwct-109
+{
+    fill:#fd6530;
+}
+.hwct-110
+{
+    fill:#976697;
+}
+.hwct-111
+{
+    fill:#343463;
+}
+.hwct-112
+{
+    fill:#666566;
+}
+.hwct-113
+{
+    fill:#fe652d;
+}
+.hwct-114
+{
+    fill:#999899;
+}
+.hwct-115
+{
+    fill:#969;
+}
+.hwct-116
+{
+    fill:#663566;
+}
+.hwct-117
+{
+    fill:#663766;
+}
+.hwct-118
+{
+    fill:#66363c;
+}
+.hwct-119
+{
+    fill:#99666c;
+}
+
+
+
+
+
+
+
+
+.cls-1
+{
+    fill:hsl(var(--primary-color-hue), 87%, 54%);
+}
+.cls-2
+{
+    fill:#fff;
+}
+.cls-3
+{
+    fill:hsl(var(--primary-color-hue), 64%, 19%);
+}
+.cls-4
+{
+    fill:#541d56;
+}
+.cls-5
+{
+    fill:hsl(var(--primary-color-hue), 69%, 39%);
+}
+.cls-6
+{
+    fill:hsl(var(--primary-color-hue), 85%, 65%);
+}
+.cls-7
+{
+    fill:#aa3458;
+}
+.cls-8
+{
+    fill:hsl(var(--primary-color-hue), 60%, 1%);
+}
+.cls-9
+{
+    fill:hsl(var(--primary-color-hue), 94%, 66%);
+}
+.cls-10
+{
+    fill:#a857a2;
+}
+.cls-11
+{
+    fill:hsl(var(--primary-color-hue), 79%, 81%);
+}
+.cls-12
+{
+    fill:hsl(var(--primary-color-hue), 97%, 54%);
+}
+.cls-13
+{
+    fill:hsl(var(--primary-color-hue), 91%, 83%);
+}
+.cls-14
+{
+    fill:#ef59a0;
+}
+.cls-15
+{
+    fill:#5856a5;
+}
+.cls-16
+{
+    fill:hsl(var(--primary-color-hue), 60%, 53%);
+}
+
+
+
+
+
+
+
+.artc-1
+{
+    fill:hsl(0, 19%, 23%);
+}
+.artc-2
+{
+    fill:#fafbfb;
+}
+.artc-3
+{
+    fill:hsl(var(--primary-color-hue), 67%, 52%);
+}
+.artc-4
+{
+    fill:hsl(var(--primary-color-hue), 96%, 55%);
+}
+.artc-5
+{
+    fill:hsl(247, 12%, 70%);
+}
+.artc-6
+{
+    fill:#1e59a9;
+}

@@ -1,0 +1,19 @@
+.light
+{
+    --background-lightness: 85%;
+    --navbar-lightness: 80%;
+    --section-lightness: 75%;
+    --font-lightness: 10%;
+
+    --font-color: hsl(var(--primary-color-hue), 30%, var(--font-lightness));
+    --background-color: hsl(var(--primary-color-hue), 10%, var(--background-lightness));
+    --section-color: hsl(var(--primary-color-hue), 8%, var(--navbar-lightness));
+
+    --contrast-color: hsl(0, 0%, 100%);
+
+    --image-contrast: 0.5;
+
+    --background-image: url('../assets/bg-texture.jpg');
+
+    --font-weight: 500;
+}

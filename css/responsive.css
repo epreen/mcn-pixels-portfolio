@@ -25,7 +25,7 @@
         position: relative;
     }
 
-    .header_container
+    .content_top
     {
         grid-template-columns: 40% 54%;
         gap: 6%;
@@ -165,7 +165,7 @@
     }
 }
 
-@media screen and (max-width: 910px)
+@media screen and (max-width: 912px)
 {
     .header_contents h1
     {
@@ -180,6 +180,18 @@
     .additional
     {
         display: none;
+    }
+
+    .content_bottom
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .heading_cta
+    {
+        display: flex;
     }
 }
 
@@ -197,6 +209,11 @@
     {
         font-size: 2rem;
         line-height: 1.3;
+    }
+    
+    #about
+    {
+        height: fit-content;
     }
 
     .header_images .lg-image
@@ -245,11 +262,16 @@
         justify-content: center;
     }
 
-    .header_container,
+    .content_top,
     .about_container
     {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .content_bottom
+    {
+        display: none;
     }
 
     .about_details p

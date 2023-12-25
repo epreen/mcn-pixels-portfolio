@@ -23,6 +23,7 @@ body
     line-height: 1.7;
     overflow-x: hidden;
     background: var(--background-color) var(--background-image);
+    touch-action: pan-y;
 }
 
 nav
@@ -55,12 +56,13 @@ header
     background: linear-gradient(var(--background-color), var(--contrast-color));
     overflow: hidden;
     display: grid;
+    place-items: center;
     box-shadow: 0 10rem 10rem 10rem var(--contrast-color);
 }
 
 section
 {
-    height: max-content;
+    height: fit-content;
 }
 
 h1,

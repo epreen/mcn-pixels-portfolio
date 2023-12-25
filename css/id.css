@@ -2,6 +2,9 @@
 {
     margin-top: 18rem;
     padding-top: 18rem;
+    display: grid;
+    align-items: center;
+    height: 100vh;
 }
 
 #gallery
@@ -15,4 +18,6 @@
     margin-top: 10rem;
     padding-top: 10rem;
     margin-bottom: 10rem;
+    display: grid;
+    align-items: center;
 }

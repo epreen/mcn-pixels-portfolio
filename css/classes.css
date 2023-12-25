@@ -131,8 +131,21 @@
     margin-top: 10rem;
     position: relative;
     display: grid;
+    gap: 3rem;
+}
+
+.content_top
+{
+    position: relative;
+    display: grid;
     grid-template-columns: 42% 52%;
     gap: 6%;
+}
+
+.content_bottom
+{
+    position: relative;
+    display: none;
 }
 
 .header_images
@@ -375,6 +388,8 @@
 .about_details
 {
     margin-left: 5rem;
+    width: 96%;
+    margin-inline: auto;
 }
 
 .about_details p
@@ -410,6 +425,11 @@
     overflow: hidden;
     transition: var(--transition);
     background: hsl(var(--primary-color-hue), 0%, 50%);
+}
+
+.swiper-slide img
+{
+    height: 100%;
 }
 
 .swiper-slide:hover
@@ -503,7 +523,7 @@
 .exhibitions_gallery article img
 {
     height: 100%;
-    filter: saturate(0) contrast(1.3);
+    filter: saturate(0) var(--image-contrast);
     transition: var(--transition);
 }
 

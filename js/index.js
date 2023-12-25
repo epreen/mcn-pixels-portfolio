@@ -161,8 +161,22 @@ dark_mode.addEventListener
 (
     'click', () =>
     {
-        document.body.className = 'dark';
-        window.localStorage.setItem('theme', 'dark');
+        let bodyclass = document.body.className;
+
+        if(!bodyclass)
+        {
+            bodyclass = 'dark';
+            document.body.className = bodyclass;
+
+            window.localStorage.setItem('theme', bodyclass);
+        }
+        else
+        {
+            bodyclass = "dark";
+            document.body.className = bodyclass;
+
+            window.localStorage.setItem('theme', bodyclass);
+        }
     }
 );
 
@@ -170,7 +184,21 @@ light_mode.addEventListener
 (
     'click', () =>
     {
-        document.body.className = 'light';
-        window.localStorage.setItem('theme', 'light');
+        let bodyclass = document.body.className;
+
+        if(!bodyclass)
+        {
+            bodyclass = 'light';
+            document.body.className = bodyclass;
+
+            window.localStorage.setItem('theme', bodyclass);
+        }
+        else
+        {
+            bodyclass = "light";
+            document.body.className = bodyclass;
+
+            window.localStorage.setItem('theme', bodyclass);
+        }
     }
 );

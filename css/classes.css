@@ -167,7 +167,7 @@
     position: relative;
     top: 1rem;
     left: 1rem;
-    filter: saturate(0) brightness(0.4);
+    filter: saturate(0.2) brightness(0.4);
     transition: var(--transition);
     border: 1rem solid transparent;
 }
